@@ -7,6 +7,9 @@ nav h1 {
   padding:20px;
   margin-top: 0;
 }
+nav h1 a {
+  color:white;
+}
 nav ul {
   float:right;
 }
@@ -16,12 +19,16 @@ nav ul li{
   font-size: 18px;
   font-weight: bold;
 }
-nav a {
+nav ul a {
   color:white;
 }
-nav a:hover {
+nav ul a:hover {
   text-decoration: none;
   color:#16BC9B;
+}
+nav h1 a:hover {
+  text-decoration: none;
+  color:white;
 }
 .green {
   background-color: #16BC9B;
