@@ -28,6 +28,21 @@ nav a:hover {
   width:100%;
   color:white;
 }
+.download {
+  padding:50px;
+}
+.download a {
+  color:white;
+  font-size: 140%;
+  border:2px solid white;
+  padding:20px;
+  border-radius: 4px;
+}
+.download a:hover {
+  background-color: white;
+  color:black;
+  text-decoration: none;
+}
 .white {
     background-color: white;
     width:100%;
@@ -80,13 +95,18 @@ ul li textarea {
   border:none;
 }
 .send {
-  background-color: #0F8F76;
+  background-color: #16BC9B;
   text-align: center;
   color:white;
   padding:20px;
   text-decoration: none;
   font-size: 20px;
   border-radius: 5px;
+}
+a.send:hover {
+  color:white;
+  text-decoration: none;
+  background-color: #0F8F76;
 }
 footer ul li {
   list-style-type: none;
