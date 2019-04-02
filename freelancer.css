@@ -13,8 +13,15 @@ nav ul {
 nav ul li{
   display:inline-block;
   padding:30px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
+}
+nav a {
+  color:white;
+}
+nav a:hover {
+  text-decoration: none;
+  color:#16BC9B;
 }
 .green {
   background-color: #16BC9B;
@@ -80,4 +87,27 @@ ul li textarea {
   text-decoration: none;
   font-size: 20px;
   border-radius: 5px;
+}
+footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin:10px;
+}
+footer p {
+  font-size: 150%;
+}
+footer span a {
+  color:#16BC9B;
+}
+footer span a:hover {
+  color:#0F8F76;
+}
+.copyright {
+  background-color: #19242F;
+  width:100%;
+  color:white;
+}
+.copyright p {
+  margin:30px;
+  font-size:90%;
 }
