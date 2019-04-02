@@ -16,6 +16,9 @@
 .mt-50 {
 margin-top: 50px;
 }
+.mb-50 {
+  margin-bottom: 50px;
+}
 img {
   width:100%;
   height:auto;
@@ -27,6 +30,13 @@ nav h4 {
 nav h1 {
   padding:20px;
   margin-top: 0;
+}
+nav ul {
+  float:right;
+}
+nav ul li{
+  display:inline-block;
+  margin:20px;
 }
 .mt-20 {
   margin-top: 20px;
