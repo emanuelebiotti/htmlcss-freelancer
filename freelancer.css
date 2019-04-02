@@ -6,7 +6,10 @@
 .white {
     background-color: white;
     width:100%;
-    color:blue;
+    color:#2C3E50;
+}
+.white h1 {
+  font-size: 50px;
 }
 .blue {
   background-color: #2C3E50;
@@ -23,10 +26,6 @@ img {
   width:100%;
   height:auto;
 }
-nav h4 {
-  padding:30px;
-  margin-top: 0;
-}
 nav h1 {
   padding:20px;
   margin-top: 0;
@@ -36,7 +35,9 @@ nav ul {
 }
 nav ul li{
   display:inline-block;
-  margin:20px;
+  padding:30px;
+  font-size: 20px;
+  font-weight: bold;
 }
 .mt-20 {
   margin-top: 20px;
