@@ -28,6 +28,9 @@ nav a:hover {
   width:100%;
   color:white;
 }
+.green img {
+  padding:15%;
+}
 .download {
   padding:50px;
 }
