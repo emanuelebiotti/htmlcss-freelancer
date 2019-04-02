@@ -1,3 +1,21 @@
+nav {
+  position:fixed;
+  top: 0;
+  z-index: 999;
+}
+nav h1 {
+  padding:20px;
+  margin-top: 0;
+}
+nav ul {
+  float:right;
+}
+nav ul li{
+  display:inline-block;
+  padding:30px;
+  font-size: 20px;
+  font-weight: bold;
+}
 .green {
   background-color: #16BC9B;
   width:100%;
@@ -19,25 +37,15 @@
 .mt-50 {
 margin-top: 50px;
 }
+.mt-90 {
+  margin-top: 90px;
+}
 .mb-50 {
   margin-bottom: 50px;
 }
 img {
   width:100%;
   height:auto;
-}
-nav h1 {
-  padding:20px;
-  margin-top: 0;
-}
-nav ul {
-  float:right;
-}
-nav ul li{
-  display:inline-block;
-  padding:30px;
-  font-size: 20px;
-  font-weight: bold;
 }
 .mt-20 {
   margin-top: 20px;
@@ -53,4 +61,23 @@ nav ul li{
 }
 .created {
   font-size: 20px;
+}
+.contact ul li {
+
+list-style-type: none;
+font-size: 30px;
+}
+ul li textarea {
+  width:100%;
+  height: 200px;
+  border:none;
+}
+.send {
+  background-color: #0F8F76;
+  text-align: center;
+  color:white;
+  padding:20px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 5px;
 }
